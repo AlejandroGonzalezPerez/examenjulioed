@@ -3,6 +3,8 @@ public class CalculoAlmacen {
 	Llanta[] llantasAlmacen1=new Llanta[10];
 	Llanta[] llantasAlmacen2=new Llanta[5];
 	
+	
+	//comentarios en verdes
 	public CalculoAlmacen() {
 		for(int i=0;i<llantasAlmacen1.length;i++)
 		{
