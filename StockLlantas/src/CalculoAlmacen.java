@@ -3,6 +3,8 @@ public class CalculoAlmacen {
 	Llanta[] llantasAlmacen1=new Llanta[10];
 	Llanta[] llantasAlmacen2=new Llanta[5];
 	
+	
+	//comentarios en verdes
 	public CalculoAlmacen() {
 		for(int i=0;i<llantasAlmacen1.length;i++)
 		{
@@ -16,9 +18,9 @@ public class CalculoAlmacen {
 	
 	public int calcularTotalAlmacen1(){
 		int total=0;
-		for(int i=0;i<llantasAlmacen2.length;i++)
+		for(int i=0;i<llantasAlmacen1.length;i++)
 		{
-			total=llantasAlmacen2[i].numeroLlantas+total;
+			total=llantasAlmacen1[i].numeroLlantas+total;
 		}
 		return total;
 	}
